@@ -18,7 +18,7 @@ class Scraper
 
   def get_page
     html = open("https://flatironschool.com/")
-    page = Nokogiri::HTML(open("https://twitter.com/home"))
+    page = Nokogiri::html
     page
   end
 
