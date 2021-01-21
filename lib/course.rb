@@ -5,6 +5,6 @@ class Course
   def initialize(attributes)
   attributes.each {|key,value| self.send(("#{key}="),value)}
   @@all << self
-end
+  end
 
 end
