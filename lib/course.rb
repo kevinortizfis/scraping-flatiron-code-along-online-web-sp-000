@@ -2,7 +2,7 @@ class Course
   attr_accessor :title, :schedule, :description
   @@all = []
 
-  def initialize(attributes)
+  def initialize
   attributes.each {|key,value| self.send(("#{key}="),value)}
   @@all << self
   end
